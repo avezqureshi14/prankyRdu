@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: unset;
+  list-style: none;
+  font-family: "Poppins" !important;
+}
+
+.bgNone {
+  background-color: transparent !important;
+}
+
+.cardsHotel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardHotel {
+  margin: 1rem;
+  width: 400px;
+  height: 600px;
+}
+
+.add-new-hotel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-new-hotel h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.hotelAdding{
+  background: url("./assets/hotelImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2rem;
+}
+
+.hotelAdding h1{
+  color: #fff;
+  margin-left: 2rem;
+}
+
+
+.addHotel input {
+  display: block;
+  padding: 11px 15px;
+  outline: none;
+  border: none;
+  box-shadow:
+    1.2px 1.2px 2.2px rgba(0, 0, 0, 0.02),
+    -5.5px -5.5px 5.3px rgba(0, 0, 0, 0.028),
+    -12px -12px 10px rgba(0, 0, 0, 0.035),
+    -8.5px -8.5px 17.9px rgba(0, 0, 0, 0.042),
+    19.5px 19.5px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  margin: 1rem;
+  width: 400px;
+}
+
+.addHotel label{
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+}
+
+.addHotel textarea {
+  display: block;
+  padding: 11px 15px;
+  outline: none;
+  border: none;
+  box-shadow:
+    1.2px 1.2px 2.2px rgba(0, 0, 0, 0.02),
+    -5.5px -5.5px 5.3px rgba(0, 0, 0, 0.028),
+    -12px -12px 10px rgba(0, 0, 0, 0.035),
+    -8.5px -8.5px 17.9px rgba(0, 0, 0, 0.042),
+    19.5px 19.5px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  margin: 1rem;
+  width: 400px;
+}
+
+.featured{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 1.1rem;
+}
+
+.otherINput input{
+  box-shadow: none !important;
+}
+
+.featured label{
+  color: #000;
+  font-weight: 800;
+  background-color: #eee;
+}
+
+.ant-card-cover{
+  height: 230px;
+}
+
+.ant-card-cover img{
+  height: 100%;
+}
+
+.image-container {
+  height: 240px; /* Adjust the height as per your preference */
+  overflow: hidden;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bookScreen{
+  width: 100%;
+  background-color: #eee;
+}
+
+.bookingScreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bookingCard{
+  margin: 1rem;
+}
